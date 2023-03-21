@@ -1,0 +1,12 @@
+{
+    "code": 200,
+    "message": "Success",
+    "responseTime": "2023-02-17T15:59:26+09:00",
+    "response": {
+        "gid": "a9f96be9-bfd3-471c-9f1f-b123d678cb1d",
+        "mobile_num": "01034719450",
+        "uid": "5c8208e4-7562-4cea-b504-f1e22d379f53",
+        "user_account": "dataeng",
+        "user_name": "데이터분석가3"
+    }
+}

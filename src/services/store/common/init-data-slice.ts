@@ -2,11 +2,17 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { PURGE } from "redux-persist";
 
 import { Menu } from "../../../views/components/common";
-import { CheckLoginResult, GetUserAuthResult } from "../../api/mockup/MockupInterface";
+
+export interface CheckLoginResult {
+    gid: string;
+    uid: string;
+    user_account: string;
+    user_name: string;
+    mobile_num?: string;
+}
 
 export interface InitDataState {
     loginUserInfo?: CheckLoginResult;
-    userAuth?: GetUserAuthResult;
     authMenus: Menu[];
 }
 
@@ -22,7 +28,6 @@ export const initDataSlice = createSlice({
             state.loginUserInfo = action.payload;
         },
         setStoredInitData: (state, action: PayloadAction<InitDataState>) => {
-            state.userAuth = action.payload.userAuth;
             state.authMenus = action.payload.authMenus;
         },
     },

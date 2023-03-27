@@ -93,8 +93,6 @@ const config: Configuration = {
         new CopyPlugin({
             patterns: [
                 { from: "public/favicon.ico", to: "favicon.ico", noErrorOnMissing: true },
-                { from: "public/mockup/auth/checkLogin.json", to: "checkLogin.json", noErrorOnMissing: true },
-                { from: "public/mockup/auth/getUserAuth.json", to: "getUserAuth.json", noErrorOnMissing: true },
             ],
         }),
         new webpack.ProvidePlugin({

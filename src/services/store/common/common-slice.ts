@@ -3,7 +3,7 @@
  */
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-import { THEME_LIGHT, THEME_MODE } from "../../interfaces";
+import { THEME_DARK, THEME_MODE } from "../../interfaces";
 
 export interface CommonState {
     activeAppPath: string;
@@ -15,7 +15,7 @@ export interface CommonState {
 const initialState: CommonState = {
     activeAppPath: process.env.REACT_APP_URL,
     locale: sessionStorage.getItem("currentLang") ? String(sessionStorage.getItem("currentLang")) : "ko",
-    themeMode: THEME_LIGHT,
+    themeMode: THEME_DARK,
     pageLoading: false,
 };
 

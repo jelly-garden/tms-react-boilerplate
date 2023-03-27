@@ -17,6 +17,7 @@ Webpack template for a React app with TypeScript and ESLint
     REACT_APP_SIDE_BAR=true # 레이아웃 좌측 Side Bar 표시 유무
     REACT_APP_SIDE_BAR_HEADER=true # 레이아웃 좌측 Side Bar 헤더 표시 유무
     REACT_APP_SIDE_BAR_FOOTER=true # 레이아웃 좌측 Side Bar 푸터 표시 유무
+    REACT_APP_SIDE_BAR_FIXED=true # 레이아웃 좌측 Side Bar 너비 고정 여부
 
     # button function setting
     REACT_APP_COLLAPSED=true # 헤더 좌측 상단, 사이드바 toggle 버튼 표시 유무

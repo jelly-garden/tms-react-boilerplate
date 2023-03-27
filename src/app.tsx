@@ -15,9 +15,6 @@ import { GlobalFonts, GlobalOverrideStyle, GlobalStyle, themeDark, themeLight } 
 import { LoadingSpinner, Menu, MENUS } from "./views/components/common";
 import { Layout } from "./views/layouts";
 
-// import "react-pro-sidebar/dist/css/styles.css";
-// import "react-tabulator/lib/styles.css";
-// import "react-tabulator/lib/css/tabulator_semanticui.min.css";
 import "./styles.scss";
 
 const App = (): JSX.Element => {

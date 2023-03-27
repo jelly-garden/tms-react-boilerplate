@@ -88,7 +88,12 @@ export const ProSideBar = (props: ProSideBarProps): JSX.Element => {
     );
 
     return (
-        <ProSidebar collapsed={collapsed} width={200} collapsedWidth={60}>
+        <ProSidebar
+            collapsed={collapsed}
+            width={200}
+            collapsedWidth={60}
+            className={process.env.REACT_APP_SIDE_BAR_FIXED === "true" ? "fixed" : ""}
+        >
             {process.env.REACT_APP_SIDE_BAR_HEADER === "true" && (
                 <SidebarHeader>
                     <Link to={""}>

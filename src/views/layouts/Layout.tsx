@@ -16,7 +16,7 @@ export const Layout = (): JSX.Element => {
     const storedInitData = useAppSelector((state) => state.initData) as InitDataState;
     const { authMenus } = storedInitData;
 
-    const [isCollapsed, setIsCollapsed] = useState<boolean>(false);
+    const [isCollapsed, setIsCollapsed] = useState<boolean>(true);
 
     const defaultPath = useMemo((): string => {
         if (authMenus.length > 0) {

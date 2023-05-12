@@ -5,6 +5,10 @@ import "styled-components";
 
 declare module "styled-components" {
     export interface DefaultTheme {
+        colorScheme: string;
+        colorWhite: string;
+        colorRed: string;
+        colorBlue: string;
         contentColor: string;
         contentBgColor: string;
         contentBorderColor: string;
@@ -23,11 +27,6 @@ declare module "styled-components" {
         layoutHeaderBorderColor: string;
         iconButtonColor: string;
         iconButtonHoverBgColor: string;
-        inputColor: string;
-        inputBgColor: string;
-        inputBorderColor: string;
-        uploadImageBorder: string;
-        disabledTextBgColor: string;
-        imageBgColor: string;
+        labelColor: string;
     }
 }

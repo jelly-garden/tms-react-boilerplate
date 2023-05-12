@@ -4,6 +4,10 @@
 import { DefaultTheme } from "styled-components";
 
 export const themeLight: DefaultTheme = {
+    colorScheme: "light",
+    colorWhite: "#ffffff",
+    colorRed: "#fd4547",
+    colorBlue: "#0f7acb",
     contentColor: "#3F4254",
     contentBgColor: "rgba(255, 255, 255, 1)",
     contentBorderColor: "rgba(0, 0, 0, .1)",
@@ -22,10 +26,5 @@ export const themeLight: DefaultTheme = {
     layoutHeaderBorderColor: "rgba(0, 0, 0, .1)",
     iconButtonColor: "#3F4254",
     iconButtonHoverBgColor: "rgba(0, 0, 0, .12)",
-    inputColor: "#3F4254",
-    inputBgColor: "#fff",
-    inputBorderColor: "#ccc",
-    uploadImageBorder: "#fff",
-    disabledTextBgColor: "#eee",
-    imageBgColor: "rgba(245, 245, 245, 1)",
+    labelColor: "#3F4254",
 };

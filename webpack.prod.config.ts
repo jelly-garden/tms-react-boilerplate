@@ -85,6 +85,7 @@ const config: Configuration = {
             template: "public/index.html",
             favicon: "public/favicon.ico",
             env: process.env,
+            mode: "production",
         }),
         new webpack.DefinePlugin({
             "process.env": JSON.stringify(process.env),
@@ -93,9 +94,7 @@ const config: Configuration = {
             extensions: ["js", "jsx", "ts", "tsx"],
         }),
         new CopyPlugin({
-            patterns: [
-                { from: "public/favicon.ico", to: "favicon.ico", noErrorOnMissing: true },
-            ],
+            patterns: [{ from: "public/favicon.ico", to: "favicon.ico", noErrorOnMissing: true }],
         }),
         new webpack.ProvidePlugin({
             Buffer: ["buffer", "Buffer"],

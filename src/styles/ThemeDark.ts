@@ -4,6 +4,10 @@
 import { DefaultTheme } from "styled-components";
 
 export const themeDark: DefaultTheme = {
+    colorScheme: "dark",
+    colorWhite: "#ffffff",
+    colorRed: "#fd4547",
+    colorBlue: "#0f7acb",
     contentColor: "rgba(255, 255, 255, 1)",
     contentBgColor: "#22252a",
     contentBorderColor: "#3d4148",
@@ -22,10 +26,5 @@ export const themeDark: DefaultTheme = {
     layoutHeaderBorderColor: "#3d4148",
     iconButtonColor: "rgba(255, 255, 255, 1)",
     iconButtonHoverBgColor: "rgba(255, 255, 255, .1)",
-    inputColor: "rgba(255, 255, 255, 1)",
-    inputBgColor: "#646465",
-    inputBorderColor: "#59595a",
-    uploadImageBorder: "#ccc",
-    disabledTextBgColor: "transparent",
-    imageBgColor: "rgba(245, 245, 245, 1)",
+    labelColor: "#adb5bd",
 };

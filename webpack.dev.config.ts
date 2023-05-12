@@ -79,6 +79,7 @@ const config: Configuration = {
             template: "public/index.html",
             favicon: "public/favicon.ico",
             env: process.env,
+            mode: "development"
         }),
         new webpack.DefinePlugin({
             "process.env": JSON.stringify(process.env),

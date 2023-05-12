@@ -30,7 +30,7 @@
         "redux": "^4.1.2",
         "redux-persist": "^6.0.0",
         "styled-normalize": "^8.0.7",
-        "yup": "^0.32.11"
+        "yup": "^1.0.2"
     },
     "devDependencies": {
         "@types/history": "^4.7.11",

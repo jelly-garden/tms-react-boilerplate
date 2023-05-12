@@ -10,7 +10,6 @@ Webpack template for a React app with TypeScript and ESLint
     REACT_APP_TITLE=리액트 보일러플레이트 # 브라우저 탭에 표현되는 app title
     REACT_APP_URL=/tms-react-boilerplate/app/ # app base url
     REACT_APP_PORT=3000 # 로컬 구동 시 port
-    REACT_APP_MODE=development # development or production
 
     # layout setting
     REACT_APP_HEADER=true # 레이아웃 헤더 표시 유무
